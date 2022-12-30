@@ -1,0 +1,15 @@
+.map {
+    height: 90vh;
+    width: calc(100vw - 64px);
+    margin: -48px auto 0;
+}
+
+.map-container {
+    background-color: #2575b4;
+    margin-top: -64px;
+    padding-bottom: 16px;
+}
+
+.popup-number {
+    font-size: 24px;
+}

@@ -1,0 +1,21 @@
+
+.header {
+    padding: 64px 0;
+    margin-bottom: 64px;
+    background: #2575b4 url("./trans_pride_flag.svg") repeat-x left center;
+    background-size: 256px;
+}
+
+.header h1 {
+    position: absolute;
+    padding-left: 32px;
+}
+
+.header h1 a {
+    color: white;
+}
+
+.blahaj {
+    width: 720px;
+    margin: 0 auto;
+}

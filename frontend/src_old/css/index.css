@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Regular.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Italic.woff2?v=3.19") format("woff2");
+}
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+.header {
+    padding: 64px 0;
+    margin-bottom: 64px;
+    background: #2575b4 url("../img/trans_pride_flag.svg") repeat-x left center;
+    background-size: 256px;
+}
+
+.header h1 {
+    position: absolute;
+    padding-left: 32px;
+}
+
+.header h1 a {
+    color: white;
+}
+
+.blahaj {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+h1.big {
+    font-size: 96px;
+}

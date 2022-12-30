@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("./fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("./fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Inter-Regular.woff2?v=3.19") format("woff2");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Inter-Italic.woff2?v=3.19") format("woff2");
+}
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+}
+
+body {
+    background-color: #eee;
+    height: 100%;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+a:link {
+    color: #2575b4;
+}
+
+a:visited {
+    color: #17486e;
+}
+
+.level-critical {
+    color: #be0b0b;
+}
+
+.level-bad {
+    color: #ee971b;
+}
+
+.level-okay {
+    color: #ffd816
+}
+
+.level-good {
+    color: #4bbd28;
+}
+
+.container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}

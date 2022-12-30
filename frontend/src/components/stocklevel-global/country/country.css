@@ -1,0 +1,30 @@
+.country-card-link {
+    text-decoration: none;
+}
+
+.country-card {
+    width: 128px;
+    margin: 0 16px 32px;
+    text-decoration: none;
+}
+
+.country-card h1 {
+    font-size: 96px;
+    text-align: center;
+    margin: 0;
+}
+
+.country-card p {
+    text-align: center;
+    font-size: 32px;
+    margin: 2px 0;
+    text-decoration: underline;
+}
+
+a.country-card-link p {
+    color: #2575b4;
+}
+
+a.country-card-link:visited p {
+    color: #6825b4;
+}

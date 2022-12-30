@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #2575b4;
+    color: white;
+
+    padding: 16px;
+}
+
+.footer * {
+    padding: 0 8px;
+    border-right: 1px solid white;
+}
+
+.footer *:last-child {
+    border-right: none;
+}
+
+.footer a:link {
+    color: white;
+}
+
+.footer a:visited {
+    color: #eee;
+}
